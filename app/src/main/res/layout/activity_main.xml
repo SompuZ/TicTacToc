@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00ffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_weight="0.16"
+        android:gravity="center"
+        android:text="Tic Tac Toc"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000080"
+        android:textSize="50sp"
+        android:typeface="serif" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="131dp" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignRight="@+id/button1"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="39dp"
+            android:background="#008080"
+            android:onClick="exit"
+            android:text=" Exit "
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+              android:background="#008080"
+        android:onClick="onplay"
+        android:text=" Play "
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:typeface="serif"/>
+
+    </RelativeLayout>
+    
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/button2"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="45dp"
+         android:layout_weight="0.35"
+         android:gravity="center"
+         android:text="By: Anupam Roy (Sampu)"
+         android:textSize="20sp"
+         android:textStyle="italic|bold"
+         android:typeface="monospace" />
+
+</LinearLayout>
