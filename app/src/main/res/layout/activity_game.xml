@@ -4,8 +4,100 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="314dp"
+        android:layout_height="match_parent"
         android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tic Tac Toc"
+            android:gravity="center_horizontal"
+            android:textSize="40sp"/>
+
+        <LinearLayout
+            android:background="@drawable/ic_tictoctac"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:id="@+id/one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="128sp" />
+                <Button
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:id="@+id/two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="128sp" />
+                <Button
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:id="@+id/three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="128sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@android:color/transparent"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:id="@+id/four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="128sp" />
+                <Button
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:id="@+id/five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="128sp" />
+                <Button
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:id="@+id/six"
+                    android:layout_width="wrap_content"
+                    android:layout_height="128sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@android:color/transparent"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="128sp">
+                <Button
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:id="@+id/seven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="128sp" />
+                <Button
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:id="@+id/eight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="128sp" />
+                <Button
+                    android:background="@android:color/transparent"
+                    android:layout_weight="1"
+                    android:id="@+id/nine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="128sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/score"
+            android:text="Score"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </LinearLayout>
 
 </FrameLayout>
