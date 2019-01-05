@@ -10,7 +10,6 @@ import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Gravity;
@@ -157,7 +156,7 @@ public class GameActivity extends Activity implements OnClickListener {
 								
 							}
 						});
-						MediaPlayer.create(GameActivity.this,R.raw.user_win).start();
+						Sounds.soundPool.play(Sounds.PLAYER_WIN,1,1,1,0,1f);
 						d.show();
 						
 						return;
@@ -183,7 +182,7 @@ public class GameActivity extends Activity implements OnClickListener {
 								finish();	
 							}
 						});
-						MediaPlayer.create(GameActivity.this,R.raw.draw_game).start();
+						Sounds.soundPool.play(Sounds.DRAW,1,1,1,0,1f);
 						d.show();
 						
 						return;
@@ -218,7 +217,7 @@ public class GameActivity extends Activity implements OnClickListener {
 								finish();	
 							}
 						});
-						MediaPlayer.create(GameActivity.this,R.raw.draw_game).start();
+						Sounds.soundPool.play(Sounds.DRAW,1,1,1,0,1f);
 						d.show();
 						
 						return;
@@ -228,7 +227,7 @@ public class GameActivity extends Activity implements OnClickListener {
 
 			private void com_turn() {
 				//Com_Sound_player.start();
-				MediaPlayer.create(GameActivity.this,R.raw.com_turn).start();
+				Sounds.soundPool.play(Sounds.COMPUTER_TURN,1,1,1,0,1f);
 
 				if(com){
 					wintry(b[0][0],b[0][1],b[0][2]);
@@ -296,7 +295,8 @@ public class GameActivity extends Activity implements OnClickListener {
 		//User_Sound_player.start();
 		Button bb=(Button)V;
 		if(bb.getText().equals("")&&user){
-			MediaPlayer.create(GameActivity.this,R.raw.user_turn).start();
+			Sounds.soundPool.play(Sounds.PLAYER_TURN,1,1,1,0,1f);
+
 			bb.setTextColor(Color.RED);
 			bb.setText("X");
 			//bb.setTextColor(Color.BLUE);
@@ -365,7 +365,8 @@ public class GameActivity extends Activity implements OnClickListener {
 				finish();
 					}
 				});
-				MediaPlayer.create(GameActivity.this,R.raw.com_win).start();
+				Sounds.soundPool.play(Sounds.COMPUTER_WIN,1,1,1,0,1f);
+
 				d.show();
 				
 				win=true;
@@ -397,7 +398,8 @@ public class GameActivity extends Activity implements OnClickListener {
 						
 					}
 				});
-				MediaPlayer.create(GameActivity.this,R.raw.com_win).start();
+				Sounds.soundPool.play(Sounds.COMPUTER_WIN,1,1,1,0,1f);
+
 				d.show();
 				
 				win=true;
