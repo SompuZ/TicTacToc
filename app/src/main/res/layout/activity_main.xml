@@ -62,9 +62,10 @@
          android:layout_marginTop="45dp"
          android:layout_weight="0.35"
          android:gravity="center"
-         android:text="By: Anupam Roy (Sampu)"
-         android:textSize="20sp"
+         android:text="SampuzApps"
+         android:textSize="30sp"
          android:textStyle="italic|bold"
-         android:typeface="monospace" />
+         android:typeface="monospace"
+         android:onClick="OpenPage"/>
 
 </LinearLayout>

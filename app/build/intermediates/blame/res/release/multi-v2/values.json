@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "8,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "383,674",
+                        "endLines": "14,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "669,829"
+                    }
+                },
+                {
+                    "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "107,59,161,215",
+                        "endColumns": "52,46,52,60",
+                        "endOffsets": "155,101,209,271"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "169,222,269,322",
+                        "endColumns": "52,46,52,60",
+                        "endOffsets": "217,264,317,378"
+                    }
+                },
+                {
+                    "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                }
+            ]
+        }
+    ]
+}
