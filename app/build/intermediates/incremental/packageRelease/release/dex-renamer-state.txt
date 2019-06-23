@@ -1,4 +1,0 @@
-#Sun Feb 24 19:49:09 IST 2019
-base.0=D\:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\transforms\\dex\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex

@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Sun Jan 06 16:13:10 IST 2019
-0.baseType=DIRECTORY
-0.base=D\:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\transforms\\dex\\release\\0
-0.path=classes.dex
-0.set=DEX
-count=1
