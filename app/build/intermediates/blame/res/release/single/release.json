@@ -4,52 +4,32 @@
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_tictoctac.png"
     },
     {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_tictoctac.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_tictoctac.png"
-    },
-    {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\raw_com_win.ogg.flat",
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\raw\\com_win.ogg"
     },
     {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\raw_user_turn.ogg.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\raw\\user_turn.ogg"
-    },
-    {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\raw_user_win.ogg.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\raw\\user_win.ogg"
-    },
-    {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\raw_com_turn.ogg.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\raw\\com_turn.ogg"
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_tictactocboard.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_tictactocboard.png"
     },
     {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_winner.png.flat",
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_winner.png"
     },
     {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_tictoctac.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_tictoctac.png"
-    },
-    {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_winner.png.flat",
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_winner.png"
     },
     {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_loser.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_loser.png"
-    },
-    {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_drawgame.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_drawgame.png"
-    },
-    {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_drawgame.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_drawgame.png"
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_tictoctac.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_tictoctac.png"
     },
     {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_drawgame.png.flat",
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_drawgame.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_tictactocboard.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_tictactocboard.png"
     },
     {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_drawgame.png.flat",
@@ -64,18 +44,6 @@
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_loser.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_loser.png"
-    },
-    {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_drawgame.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_drawgame.png"
-    },
-    {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_tictoctac.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_tictoctac.png"
-    },
-    {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\layout_my_dialog.xml.flat",
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\layout\\my_dialog.xml"
     },
@@ -88,24 +56,12 @@
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_winner.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_winner.png"
-    },
-    {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_winner.png.flat",
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_winner.png"
     },
     {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_winner.png.flat",
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_winner.png"
-    },
-    {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_tictoctac.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_tictoctac.png"
     },
     {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_game.xml.flat",
@@ -116,36 +72,20 @@
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_tictoctac.xml"
     },
     {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_loser.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_loser.png"
-    },
-    {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_loser.png.flat",
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_loser.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_tictactocboard.xml.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_tictactocboard.xml"
     },
     {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_tictoctac.png.flat",
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_tictoctac.png"
     },
     {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_winner.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_winner.png"
-    },
-    {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\raw_draw_game.ogg.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\raw\\draw_game.ogg"
-    },
-    {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_loser.xml.flat",
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_loser.xml"
-    },
-    {
-        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_loser.png.flat",
-        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_loser.png"
     },
     {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_drawgame.png.flat",
@@ -166,5 +106,93 @@
     {
         "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_winner.xml.flat",
         "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_winner.xml"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_tictoctac.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_tictoctac.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\raw_user_turn.ogg.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\raw\\user_turn.ogg"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\raw_user_win.ogg.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\raw\\user_win.ogg"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\raw_com_turn.ogg.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\raw\\com_turn.ogg"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_tictactocboard.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_tictactocboard.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_loser.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_loser.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_drawgame.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_drawgame.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_drawgame.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_drawgame.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_loser.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_loser.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_drawgame.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_drawgame.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_tictoctac.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_tictoctac.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_winner.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_winner.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_tictoctac.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_tictoctac.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_loser.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_loser.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_winner.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_winner.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_tictactocboard.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_tictactocboard.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\raw_draw_game.ogg.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\src\\main\\res\\raw\\draw_game.ogg"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_loser.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_loser.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_tictactocboard.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_tictactocboard.png"
+    },
+    {
+        "merged": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_tictactocboard.png.flat",
+        "source": "D:\\Android_Studio\\Projects\\TicTacToc\\app\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_tictactocboard.png"
     }
 ]

@@ -15,7 +15,7 @@
             android:textSize="40sp"/>
 
         <LinearLayout
-            android:background="@drawable/ic_tictoctac"
+            android:background="@drawable/ic_tictactocboard"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">

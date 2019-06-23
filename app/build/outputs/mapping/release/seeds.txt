@@ -67,6 +67,7 @@ shompu.katakuti.R$dimen: int activity_vertical_margin
 shompu.katakuti.R$drawable: int ic_drawgame
 shompu.katakuti.R$drawable: int ic_launcher
 shompu.katakuti.R$drawable: int ic_loser
+shompu.katakuti.R$drawable: int ic_tictactocboard
 shompu.katakuti.R$drawable: int ic_tictoctac
 shompu.katakuti.R$drawable: int ic_winner
 shompu.katakuti.R$id: int action_settings
