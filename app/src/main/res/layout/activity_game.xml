@@ -1,6 +1,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,19 +25,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <Button
-                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5sp"
+                    android:background="@drawable/ic_cross"
                     android:layout_weight="1"
                     android:id="@+id/one"
                     android:layout_width="wrap_content"
                     android:layout_height="128sp" />
                 <Button
-                    android:background="@android:color/transparent"
+                    android:layout_marginTop="7sp"
+                    android:layout_marginRight="0sp"
+                    android:background="@drawable/ic_cross"
                     android:layout_weight="1"
                     android:id="@+id/two"
                     android:layout_width="wrap_content"
                     android:layout_height="128sp" />
                 <Button
-                    android:background="@android:color/transparent"
+                    android:layout_marginTop="7sp"
+                    android:layout_marginRight="11sp"
+                    android:background="@drawable/ic_cross"
                     android:layout_weight="1"
                     android:id="@+id/three"
                     android:layout_width="wrap_content"
@@ -48,19 +55,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <Button
-                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginBottom="8sp"
+                    android:background="@drawable/ic_circle"
                     android:layout_weight="1"
                     android:id="@+id/four"
                     android:layout_width="wrap_content"
                     android:layout_height="128sp" />
                 <Button
-                    android:background="@android:color/transparent"
+                    android:layout_marginRight="0sp"
+                    android:background="@drawable/ic_circle"
                     android:layout_weight="1"
                     android:id="@+id/five"
                     android:layout_width="wrap_content"
                     android:layout_height="128sp" />
                 <Button
-                    android:background="@android:color/transparent"
+                    android:layout_marginRight="10sp"
+                    android:background="@drawable/ic_circle"
                     android:layout_weight="1"
                     android:id="@+id/six"
                     android:layout_width="wrap_content"

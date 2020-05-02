@@ -7,8 +7,11 @@ import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.View;
@@ -17,6 +20,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -32,6 +36,31 @@ public class GameActivity extends Activity implements OnClickListener {
 	private Runnable game,U;
 	private SharedPreferences sp;
 	private Dialog d;
+
+	private class SignWatcher implements TextWatcher {
+	    View button;
+
+	    SignWatcher(View v){
+	        button=v;
+        }
+
+        @Override
+        public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) { }
+
+        @Override
+        public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+            //Toast.makeText(GameActivity.this,charSequence,Toast.LENGTH_SHORT).show();
+	        if(charSequence.toString().equals("X")){
+	            button.setBackgroundResource(R.drawable.ic_cross);
+            }
+            if(charSequence.toString().equals("O")){
+                button.setBackgroundResource(R.drawable.ic_circle);
+            }
+        }
+
+        @Override
+        public void afterTextChanged(Editable editable) { }
+    }
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +83,8 @@ public class GameActivity extends Activity implements OnClickListener {
 	        		b[i][j].setOnClickListener(this);
 	        		b[i][j].setTypeface(Typeface.DEFAULT_BOLD);
 	        		b[i][j].setTextSize(70);
+	        		b[i][j].addTextChangedListener(new SignWatcher(b[i][j]));
+	        		b[i][j].setBackgroundResource(Color.TRANSPARENT);
 	        	}
 	        }
 		 
@@ -139,7 +170,7 @@ public class GameActivity extends Activity implements OnClickListener {
 								
 								SharedPreferences.Editor e =sp.edit();
 								e.putInt("user",u+1);
-								e.apply();
+								e.commit();
 								d.dismiss();
 								finish();
 								
@@ -241,6 +272,7 @@ public class GameActivity extends Activity implements OnClickListener {
 							lok=(int)Math.abs(Math.random()*10000000)%ab.size();
 							System.out.println(" 			 "+lok+" 			 "+ab.size());
 							Button ff=ab.get(lok);
+                            ff.setTextColor(Color.TRANSPARENT);
 							ff.setText("O");
 							ab.remove(lok);
 							//User_Sound_player.stop();
@@ -283,7 +315,7 @@ public class GameActivity extends Activity implements OnClickListener {
 		if(bb.getText().equals("")&&user){
 			Sounds.playSound(Sounds.PLAYER_TURN);
 
-			bb.setTextColor(Color.RED);
+			bb.setTextColor(Color.TRANSPARENT);//bb.setTextColor(Color.RED);
 			bb.setText("X");
 			//bb.setTextColor(Color.BLUE);
 			ab.remove(bb);
@@ -297,6 +329,7 @@ public class GameActivity extends Activity implements OnClickListener {
     void wintry(Button b1,Button b2,Button b3) {
 		if(!win){
 			if(b1.getText().equals("O")&&b2.getText().equals("O")&&b3.getText().equals("")){
+                b3.setTextColor(Color.TRANSPARENT);
 				b3.setText("O");				
 				d =new Dialog(GameActivity.this);
 				d.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -315,7 +348,7 @@ public class GameActivity extends Activity implements OnClickListener {
 				loop.removeCallbacks(game);
 				SharedPreferences.Editor e =sp.edit();
 				e.putInt("com",c+1);
-				e.apply();
+				e.commit();
 				d.dismiss();
 				finish();
 						
@@ -328,6 +361,7 @@ public class GameActivity extends Activity implements OnClickListener {
 				return;
 			}
 			if(b1.getText().equals("O")&&b2.getText().equals("")&&b3.getText().equals("O")){
+                b2.setTextColor(Color.TRANSPARENT);
 				b2.setText("O");
 				d =new Dialog(GameActivity.this);
 				d.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -346,7 +380,7 @@ public class GameActivity extends Activity implements OnClickListener {
 				loop.removeCallbacks(game);
 				SharedPreferences.Editor e =sp.edit();
 				e.putInt("com",c+1);
-				e.apply();
+				e.commit();
 				d.dismiss();
 				finish();
 					}
@@ -360,6 +394,7 @@ public class GameActivity extends Activity implements OnClickListener {
 				return;
 			}
 			if(b1.getText().equals("")&&b2.getText().equals("O")&&b3.getText().equals("O")){
+                b1.setTextColor(Color.TRANSPARENT);
 				b1.setText("O");
 				d =new Dialog(GameActivity.this);
 				d.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -378,7 +413,7 @@ public class GameActivity extends Activity implements OnClickListener {
 				loop.removeCallbacks(game);
 				SharedPreferences.Editor e =sp.edit();
 				e.putInt("com",c+1);
-				e.apply();
+				e.commit();
 				d.dismiss();
 				finish();
 
@@ -462,6 +497,7 @@ public class GameActivity extends Activity implements OnClickListener {
 
 		if(!block){
 			if(b1.getText().equals("X")&&b2.getText().equals("X")&&b3.getText().equals("")){
+                b3.setTextColor(Color.TRANSPARENT);
 				b3.setText("O");
 				
 				ab.remove(b3);
@@ -470,6 +506,7 @@ public class GameActivity extends Activity implements OnClickListener {
 				return;
 			}
 			if(b1.getText().equals("X")&&b2.getText().equals("")&&b3.getText().equals("X")){
+                b2.setTextColor(Color.TRANSPARENT);
 				b2.setText("O");
 				
 				ab.remove(b2);
@@ -478,6 +515,7 @@ public class GameActivity extends Activity implements OnClickListener {
 				return;
 			}
 			if(b1.getText().equals("")&&b2.getText().equals("X")&&b3.getText().equals("X")){
+                b1.setTextColor(Color.TRANSPARENT);
 				b1.setText("O");
 					
 				ab.remove(b1);
